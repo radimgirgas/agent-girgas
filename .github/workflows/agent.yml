@@ -4,6 +4,7 @@ on:
   schedule:
     # Každých 15 minut. Časy jsou v UTC.
     - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
