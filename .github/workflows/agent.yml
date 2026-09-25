@@ -1,7 +1,7 @@
 name: Agent Girgas
 
 on:
-  schedule:
+  schedule: 
     # Každých 15 minut. Časy jsou v UTC.
     - cron: "*/15 * * * *"
   workflow_dispatch:
