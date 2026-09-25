@@ -23,6 +23,7 @@ EMAIL_PASS = os.environ["EMAIL_PASS"]
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() == "true"
 MAX_PER_RUN = int(os.getenv("MAX_PER_RUN", "20"))
 
+print(os.environ["OPENAI_API_KEY"])
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 SYSTEM_PROMPT = (
