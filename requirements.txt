@@ -1,3 +1,4 @@
 imap-tools==1.7.0
-openai==1.54.0
+openai>=1.68.0,<2.0.0
+httpx>=0.28.0
 python-dotenv==1.0.1
