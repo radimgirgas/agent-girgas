@@ -1,4 +1,4 @@
-name: Email Summary Agent
+name: Agent Girgas
 
 on:
   schedule:
