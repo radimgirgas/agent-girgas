@@ -43,4 +43,4 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
           MAX_PER_RUN: "20"
-        run: python agent.py4
+        run: python agent.py
